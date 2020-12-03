@@ -18,7 +18,7 @@
 #define MBED_SPIF_BLOCK_DEVICE_H
 
 #include "platform/SingletonPtr.h"
-#include "drivers/SPI.h"
+#include "drivers/SPIMaster.h"
 #include "drivers/DigitalOut.h"
 #include "drivers/internal/SFDP.h"
 #include "blockdevice/BlockDevice.h"
